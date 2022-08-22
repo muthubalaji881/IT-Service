@@ -2,7 +2,8 @@
     <c-employee-browser-form></c-employee-browser-form>
     <lightning-tabset variant="scoped">
         <lightning-tab label="Gallery">
-            <c-employee-tile is-selected></c-employee-tile>
+            <c-employee-tiles
+            employee-list={employeeList}></c-employee-tiles>
         </lightning-tab>
         </lightning-tabset>
 </template>
